@@ -1,0 +1,25 @@
+{
+  "name": "SkypeCounter",
+  "version": "1.0",
+  "main": "./app.js",
+  "author": {
+    "name": "Aleksandar Mihajlovski",
+    "email": "a.mihajlovski91@gmail.com"
+  },
+  "keywords": [],
+  "licenses": {
+    "type": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amihajlovski/"
+  },
+  "bugs": {
+    "url": "http://github.com/amihajlovski/basicApi/issues"
+  },
+  "dependencies": {
+    "express": "4.14.0",
+    "path": "0.12.7",
+    "sql.js": "0.3.2"
+  }
+}
