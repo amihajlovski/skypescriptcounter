@@ -43,10 +43,8 @@ function getOrders(skypeDbPath){
     var results = res[0].values;
     console.log('================================================');
     for(var i = 0, item; item = results[i]; i++){
-      console.log(i + 1 + '.' + item[0] + ' ' + item[1].replace(keyword, '') + '|');
+      console.log(i + 1 + '. ' + item[0] + ' ' + item[1].replace(keyword, '') + '|');
     }
-    console.log('================================================');
-    console.log('Number of results: ' + results.length);
     console.log('================================================');
   } else {
     console.log('No results...');
